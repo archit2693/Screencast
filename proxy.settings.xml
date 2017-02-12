@@ -1,0 +1,11 @@
+<application>
+  <component name="HttpConfigurable">
+    <option name="USE_HTTP_PROXY" value="true" />
+    <option name="PROXY_HOST" value="192.168.1.107" />
+    <option name="PROXY_PORT" value="3128" />
+    <option name="PROXY_AUTHENTICATION" value="true" />
+    <option name="PROXY_LOGIN" value="ipg_2014021" />
+    <option name="PROXY_PASSWORD_CRYPT" value="YXJjaGl0MjY5Mw==" />
+    <option name="KEEP_PROXY_PASSWORD" value="true" />
+  </component>
+</application>
