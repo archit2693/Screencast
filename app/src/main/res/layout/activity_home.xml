@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <include layout="@layout/toolbar"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@color/colorPrimary"
+
+        >
+    </View>
+
+
+    <Button
+        android:id="@+id/update"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Set Port"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:theme="@style/MyButton"
+        android:elevation="10dp"
+        android:layout_alignParentBottom="true"/>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_vertical"
+            android:textColorHint="#ffff"
+
+            >
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:hint="Enter port number"
+                android:inputType="number"
+                android:id="@+id/portUpdate"
+                android:paddingLeft="8dp"
+                android:textSize="16dp"
+                android:maxLength="4"
+                android:textColorHint="#ffff"
+                android:textColor="#ffff"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_above="@+id/textView"
+                android:layout_centerHorizontal="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Port number must be of 4 digits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/textView"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:layout_marginTop="50dp"
+        />
+
+    </FrameLayout>
+
+
+</RelativeLayout>
+
