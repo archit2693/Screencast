@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="mp4" type="Native" />
+      <mapping pattern="APIService.java" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
